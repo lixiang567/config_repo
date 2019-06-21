@@ -1,12 +1,5 @@
 env: dev3
 spring:
-  application:
-    name: order
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    username: root
-    password: root
-    url: jdbc:mysql://localhost:3306/springcloud_sell?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
   jpg:
     show-sql: true
   rabbitmq:
