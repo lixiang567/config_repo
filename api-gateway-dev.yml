@@ -1,8 +1,8 @@
 zuul:
   sensitive-headers:
   host:
-    socket-timeout-millis: 60000
-    connect-timeout-millis: 60000
+    socket-timeout-millis: 120000
+    connect-timeout-millis: 120000
 
   routes:
     aaa:
@@ -17,7 +17,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 60000
+            timeoutInMilliseconds: 120000
 management:
   security:
     enabled: false
