@@ -1,4 +1,5 @@
 zuul:
+  sensitive-headers:
   host:
     socket-timeout-millis: 60000
     connect-timeout-millis: 60000
