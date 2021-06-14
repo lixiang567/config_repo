@@ -2,7 +2,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: root
+    password: 123456
     url: jdbc:mysql://172.16.254.136:3306/sell?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
   redis:
     host: localhost
